@@ -31,9 +31,7 @@ git clone https://github.com/fatih-arslan/real-time-license-plate-detection.git
 pip install -r requirements.txt
 ```
 
-3. Download the YOLOv8 weights file (e.g., `best.pt`) and place it in the project directory.
-
-4. Install Tesseract OCR and specify its path in the `YOLO_Video.py` file:
+3. Install Tesseract OCR and specify its path in the `YOLO_Video.py` file:
 
 ```python
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
